@@ -1,0 +1,95 @@
+#map {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+
+
+.css-icon {
+	background: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+
+.css-icony {
+  background: yellow;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+
+.css-iconblue {
+  background: blue;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+
+.css-iconblack {
+  background: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+/* 
+Override some default Leaflet styles
+
+.leaflet-div-icon 
+{
+	background: none;
+	border: none;
+background-color:white;
+
+}
+
+Styles for our custom marker
+ */
+
+.se-marker {
+	position: absolute;
+	left: 0;
+	transform: translateX(-50%);
+	width: 11vw;
+	text-align: center;
+}
+
+.se-marker img {
+
+}
+
+.se-marker p {
+	font-size: .9em;
+	line-height: 1.2;
+	color: pink;
+}
+
+
+
+
+.custom-popup .leaflet-popup-content-wrapper {
+  background:#2c3e50;
+  color:#fff;
+  font-size:16px;
+  line-height:24px;
+  }
+.custom-popup .leaflet-popup-content-wrapper a {
+  color:rgba(255,255,255,0.5);
+  }
+.custom-popup .leaflet-popup-tip-container {
+  width:30px;
+  height:15px;
+  }
+.custom-popup .leaflet-popup-tip {
+  border-left:15px solid transparent;
+  border-right:15px solid transparent;
+  border-top:15px solid #2c3e50;
+  }
+
+
+/* Styles for images */
+
+
